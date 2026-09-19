@@ -1,0 +1,56 @@
+import { Fingerprint, BrainCircuit } from 'lucide-react';
+
+export const VERIFICATIONS = [
+  {
+    kind: 'document-identity',
+    label: 'Document & Identity',
+    accent: 'identity',
+    icon: Fingerprint,
+    eyebrow: 'Identity & documents',
+    title: 'Document & Identity Verification',
+    tagline: 'Confirm the document is genuine — and the holder is who they claim to be.',
+    blurb: 'MRZ validation, OCR extraction, tamper forensics and 1:1 face verification against the document portrait.',
+    body: 'A single pipeline authenticates the document itself and verifies the person presenting it. ICAO 9303 MRZ checksums, OCR / VIZ extraction and photo forensics establish the document, while 1:1 biometric face comparison and liveness detection tie the holder to that document portrait. Every check lands as one match-confidence outcome with a recommended decision for the officer.',
+    checks: [
+      'Document upload & classification',
+      'ICAO 9303 MRZ checksum validation',
+      'OCR / VIZ extraction',
+      'Photo tamper & metadata forensics',
+      'Face capture against document portrait',
+      '1:1 biometric comparison',
+      'Liveness & anti-spoofing checks',
+      'Expiry & validity checks',
+      'Match confidence score',
+    ],
+    preview: [
+      { label: 'Face match', value: '94.2% — Match', tone: 'text-emerald-700' },
+      { label: 'Liveness', value: 'Live', tone: 'text-emerald-700' },
+      { label: 'MRZ checksums', value: 'Valid', tone: 'text-emerald-700' },
+      { label: 'Photo tampering', value: 'None detected', tone: 'text-emerald-700' },
+    ],
+  },
+  {
+    kind: 'ai-analysis',
+    label: 'AI Analysis',
+    accent: 'analytics',
+    icon: BrainCircuit,
+    eyebrow: 'Deep pattern analysis',
+    title: 'AI Analysis',
+    tagline: 'Deep pattern analysis of conversations, emails and documents.',
+    blurb: 'Paste a conversation, email or document and get a backend AI threat assessment with evidence.',
+    body: 'The AI analyzer reads pasted conversations, emails and document text against scam and social-engineering patterns on the backend. Every analysis returns a risk tier, the specific indicators found, and a recommended action — so a suspicious exchange becomes a documented, actionable finding.',
+    checks: [
+      'Free-form text analysis',
+      'Conversation & email review',
+      'Document text review',
+      'Pattern confidence scoring',
+      'Risk tier with evidence',
+      'Recommended action',
+    ],
+    preview: [
+      { label: 'Pattern analysis', value: '3 risk signals', tone: 'text-amber-700' },
+      { label: 'Confidence', value: '78/100', tone: 'text-amber-700' },
+      { label: 'Risk tier', value: 'Moderate — Review', tone: 'text-amber-700' },
+    ],
+  },
+];

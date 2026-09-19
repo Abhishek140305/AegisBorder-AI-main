@@ -1,0 +1,73 @@
+{
+  "domains": [
+    "sbi-bank-kyc-update.top",
+    "sbi-reward-points.xyz",
+    "hdfc-netbanking-verify.info",
+    "icici-pan-card-link.site",
+    "paytm-cashback-offer99.buzz",
+    "gpay-lottery-winner.online",
+    "phonepe-merchant-reward.club",
+    "customer-support-app.net",
+    "bijli-bill-payment-portal.cc",
+    "electricity-disconnection-alert.tk",
+    "epfo-claim-status-kyc.top",
+    "aadhaar-biometric-unlock.biz",
+    "free-recharge-jio-5g.live",
+    "anydesk-remote-support.apk.link",
+    "rbi-digital-rupee-claim.win"
+  ],
+  "vpas": [
+    "cashback-claim@ybl",
+    "paytm-refund-dept@paytm",
+    "sbi-rewards-executive@oksbi",
+    "electricity-nodal-officer@axl",
+    "kyc-support-verification@icici",
+    "lottery-winner-tax@ibl",
+    "phonepe-cashback-gate@ibl",
+    "gpay-official-promotions@okaxis",
+    "scam-paytm@ybl"
+  ],
+  "phoneNumbers": [
+    "+919876543210",
+    "+918765432109",
+    "+917001234567",
+    "+919123456780",
+    "+919988776655"
+  ],
+  "apkSignatures": [
+    {
+      "packageName": "com.support.anydesk.quickfix",
+      "appName": "AnyDesk Support QuickFix",
+      "riskScore": 98,
+      "dangerousPermissions": [
+        "android.permission.BIND_ACCESSIBILITY_SERVICE",
+        "android.permission.READ_SMS",
+        "android.permission.RECEIVE_SMS",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    {
+      "packageName": "com.bijli.bill.update.official",
+      "appName": "Bijli Bill Instant Pay",
+      "riskScore": 94,
+      "dangerousPermissions": [
+        "android.permission.READ_SMS",
+        "android.permission.SEND_SMS",
+        "android.permission.READ_CONTACTS",
+        "android.permission.REQUEST_INSTALL_PACKAGES"
+      ]
+    },
+    {
+      "packageName": "com.sbi.kyc.verification.doc",
+      "appName": "SBI KYC Verification Helper",
+      "riskScore": 99,
+      "dangerousPermissions": [
+        "android.permission.BIND_ACCESSIBILITY_SERVICE",
+        "android.permission.READ_SMS",
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1E0A0F"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP! YOU ARE SENDING MONEY!"
+        android:textColor="#EF4444"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPI PIN is only required to SEND money. You NEVER need a PIN to receive cashback or rewards."
+        android:textColor="#FCA5A5"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvDebitAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEBIT: - ₹4,999"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPayeeInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipient: PaytmReward (cashback-claim@ybl)"
+        android:textColor="#CBD5E1"
+        android:textSize="13sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCancelPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EF4444"
+        android:text="Cancel Payment &amp; Protect Account" />
+
+</LinearLayout>

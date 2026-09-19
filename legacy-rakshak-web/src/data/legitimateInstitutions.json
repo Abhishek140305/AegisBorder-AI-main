@@ -1,0 +1,65 @@
+{
+  "banks": [
+    {
+      "name": "State Bank of India (SBI)",
+      "officialDomains": ["sbi.co.in", "onlinesbi.sbi", "bank.sbi"],
+      "helpline": "1800 1234 / 1800 2100",
+      "officialVpaSuffix": "@sbi",
+      "category": "Public Sector Bank"
+    },
+    {
+      "name": "HDFC Bank",
+      "officialDomains": ["hdfcbank.com", "hdfc.com"],
+      "helpline": "1800 202 6161",
+      "officialVpaSuffix": "@hdfcbank",
+      "category": "Private Bank"
+    },
+    {
+      "name": "ICICI Bank",
+      "officialDomains": ["icicibank.com"],
+      "helpline": "1800 1080",
+      "officialVpaSuffix": "@icici",
+      "category": "Private Bank"
+    },
+    {
+      "name": "Punjab National Bank (PNB)",
+      "officialDomains": ["pnbindia.in"],
+      "helpline": "1800 180 2222",
+      "officialVpaSuffix": "@pnb",
+      "category": "Public Sector Bank"
+    },
+    {
+      "name": "Bank of Baroda",
+      "officialDomains": ["bankofbaroda.in"],
+      "helpline": "1800 5700",
+      "officialVpaSuffix": "@barodampay",
+      "category": "Public Sector Bank"
+    }
+  ],
+  "governmentAndUtilities": [
+    {
+      "name": "National Cyber Crime Reporting Portal",
+      "officialDomains": ["cybercrime.gov.in"],
+      "helpline": "1930 (Toll-Free National Helpline)",
+      "category": "Law Enforcement"
+    },
+    {
+      "name": "Income Tax Department",
+      "officialDomains": ["incometax.gov.in", "incometaxindia.gov.in"],
+      "helpline": "1800 180 1961",
+      "category": "Government"
+    },
+    {
+      "name": "UIDAI (Aadhaar)",
+      "officialDomains": ["uidai.gov.in", "myaadhaar.uidai.gov.in"],
+      "helpline": "1947",
+      "category": "Government"
+    },
+    {
+      "name": "NPCI / UPI (National Payments Corp)",
+      "officialDomains": ["npci.org.in"],
+      "helpline": "1800 120 1740",
+      "category": "Payment Network"
+    }
+  ]
+}

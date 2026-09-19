@@ -1,0 +1,49 @@
+# Node / Web App Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor & OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+.claude/
+.commandcode/
+
+# Android & Gradle Build Artifacts
+android-app/.gradle/
+android-app/build/
+android-app/*/build/
+android-app/local.properties
+android-app/.cxx/
+android-app/*.iml
+android-app/*/*.iml
+android-app/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Python / FastAPI Backend
+backend/venv/
+backend/.venv/
+__pycache__/
+*.pyc
+backend/bcp-audit-logs/
+backend/data/biometric_audit.jsonl
+.vercel

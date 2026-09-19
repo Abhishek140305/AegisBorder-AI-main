@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Rakshak AI</string>
+    <string name="notification_service_label">Rakshak AI Notification Protection</string>
+</resources>

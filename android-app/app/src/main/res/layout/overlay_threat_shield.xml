@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#2A0F14"
+    android:padding="16dp"
+    android:layout_margin="12dp">
+
+    <TextView
+        android:id="@+id/tvOverlayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🛡️ RAKSHAK AI: THREAT INTERCEPTED"
+        android:textColor="#EF4444"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvOverlaySender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sender: +91 98765 43210 (Unknown)"
+        android:textColor="#FCA5A5"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvOverlayMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aapka bijli bill update nahi hai..."
+        android:textColor="#E2E8F0"
+        android:textSize="13sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnOverlayDismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EF4444"
+        android:text="Dismiss &amp; Block Link" />
+
+</LinearLayout>
